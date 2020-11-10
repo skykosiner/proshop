@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #24252a;
 }
 
 li, a, button{
@@ -37,6 +36,10 @@ header{
   padding: 30px 0;
 }
 
+.header-wrapper{
+  background-color: #24252a;
+}
+
 .logo{
   cursor: pointer;
   margin-right: auto;
@@ -62,6 +65,17 @@ header{
   color: #0088a9;
 }
 
+/* || Product */
+.collection-products{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+}
+
+.card-product img{
+  width: 100%;
+}
+
 main{
   min-height: 80vh;
 }
@@ -69,3 +83,4 @@ main{
 footer{
   text-align: center;
 }
+
