@@ -8,7 +8,7 @@ const HomeScreen = () => {
       <h1>Latest Products</h1>
       <section className="collection-products">
         {products.map(product =>(
-           <Product product={product} />
+           <Product key={product._id} product={product} />
         ))}
       </section>
     </>
